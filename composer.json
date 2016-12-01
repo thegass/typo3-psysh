@@ -1,0 +1,31 @@
+{
+    "name": "plan2net/psysh",
+    "type": "typo3-cms-extension",
+    "description": "PsySH for TYPO3",
+    "homepage": "http://www.plan2.net/",
+    "version": "0.0.1",
+    "time": "2016-12-01",
+    "license": "GPL-2.0",
+    "keywords": [
+        "TYPO3",
+        "PsySH",
+        "debug"
+    ],
+    "require": {
+        "typo3/cms-core": ">=6.2.0,<8.5.0",
+        "php": ">=5.5.0",
+        "psy/psysh": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plan2Net\\Psysh\\": "Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver Gassner",
+            "email": "og@plan2.net",
+            "homepage": "http://www.plan2.net/"
+        }
+    ]
+}
