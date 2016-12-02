@@ -20,6 +20,7 @@ class PsyshCommandController extends \TYPO3\CMS\Extbase\Mvc\Controller\CommandCo
 
 	public function ShellCommand() {
 		eval(\Psy\sh());
+		$this->quit();
 	}
 
 }
