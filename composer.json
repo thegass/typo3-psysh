@@ -2,9 +2,9 @@
     "name": "plan2net/psysh",
     "type": "typo3-cms-extension",
     "description": "PsySH for TYPO3",
-    "homepage": "http://www.plan2.net/",
-    "version": "0.0.1",
-    "time": "2016-12-01",
+    "homepage": "https://github.com/thegass/typo3-psysh",
+    "version": "0.0.2",
+    "time": "2016-12-02",
     "license": "GPL-2.0",
     "keywords": [
         "TYPO3",
@@ -16,7 +16,7 @@
         "typo3-ter/psysh": "self.version"
     },
     "require": {
-        "typo3/cms-core": ">=6.2.0,<8.5.0",
+        "typo3/cms-core": ">=7.6.0,<7.6.99",
         "php": ">=5.5.0",
         "psy/psysh": "@stable"
     },
