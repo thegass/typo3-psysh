@@ -21,21 +21,18 @@ $EM_CONF[$_EXTKEY] = array(
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'stable',
+	'state' => 'alpha',
 	'internal' => '',
-	'uploadfolder' => 1,
+	'uploadfolder' => 0,
 	'createDirs' => '',
 	'modify_tables' => '',
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
-	'author_company' => '',
+	'author_company' => 'plan2.net',
 	'version' => '0.0.1',
 	'constraints' => array(
 		'depends' => array(
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
+			'typo3' => '7.6.0-7.6.99',
 		),
 	),
 	'suggests' => array(
