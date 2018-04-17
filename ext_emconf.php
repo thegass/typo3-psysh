@@ -1,7 +1,7 @@
 <?php
 
 /***************************************************************
- * Extension Manager/Repository config file for ext "kuoni_stammdaten".
+ * Extension Manager/Repository config file for ext "Psysh".
  *
  * Auto generated 18-09-2013 14:01
  *
